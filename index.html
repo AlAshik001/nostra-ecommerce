@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+     <!-- Tailwind css  CTN link  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+     <!-- style sheet link -->
+      <link rel="stylesheet" href="style.css">
+      <!-- Font Awesome link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Google font link -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section>
+        <!-- offre bar -->
+         <div id="off-bar" class=" p-2 flex justify-center gap-12 bg-black text-white " >
+         <p>sign Up and <b>GET 20% OFF</b> for your first order</p>
+         <p>X</p>
+        </div>
+
+    </section>
+      <!-- navbar -->
+    
+        <nav id="navbar" class="m-3 flex items-center justify-between  ">
+
+            <h1 class="text-xl font-bold">Nostra</h1>
+
+            <svg id="menubar"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+          
+            <ul class="flex gap-10 hidden md:flex">
+
+           
+                <li class="cursor-pointer hover:underline hover:text-gray-500">
+
+                    <p><a href="#">Home</a></p>
+                </li>
+
+                <li class="cursor-pointer hover:underline  hover:text-gray-500">
+                    <p><a href="#">New Arrivel</a></p>
+                </li>
+
+                <li class="cursor-pointer hover:underline  hover:text-gray-500">
+                    <p><a href="#">Most Wanted</a></p>
+                </li>
+
+                <li class="cursor-pointer hover:underline  hover:text-gray-500">
+                    <p><a href="#">Collection</a></p>
+                </li>
+
+                <li class="cursor-pointer hover:underline  hover:text-gray-500">
+                    <p><a href="#">Contact Us</a></p>
+                </li>
+            </ul>
+
+        </nav>
+
+       <!-- Slider -->
+        <section>
+                          
+            <div  class="slider m-3">
+
+                <div class="slider-left-button">
+                    <i id="slider-left-activate" class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+                </div>
+
+                <div class="slider__content">
+                    <h1>Level Up Your Style With Our</h1>
+                    <h4>Summer Collection</h4>
+                    <button class="slider-content-button"> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+
+                </div>
+
+                <div class="slider-img">
+
+                    <img class="s1" src="./image/slider-one.jpg" width="100%" alt="">
+                    <img class="s1" src="./image/slider-two.jpg" alt="">
+                    <img class="s1" src="./image/slider-three.jpg" alt="">
+
+                </div>
+
+                <div class="slider-right-button">
+                
+                    <i id="slider-right-activate" class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+                </div>
+
+            </div>
+             
+        </section>
+
+                     <!-- Brand -->
+
+        <section >
+            <h1 class=" m-3 mt-10 text-2xl font-bold ">Brand</h1>
+
+            <div class=" brand  flex gap-28 m-3 mt-10  text-xl font-bold">
+
+
+                <div>
+                    <img src="./image/puma.png" alt="">
+                    <h1>Puma</h1>
+                </div>
+
+                <div>
+                    <img src="./image/leaves.png" alt="">
+                    <h1>Leaves</h1>
+                </div>
+
+                <div >
+                    <img src="./image/nike.png" alt="">
+                    <h1>Nike</h1>
+                </div>
+
+                <div>
+                    <img src="./image/adidas.png" alt="">
+                    <h1>Adidas</h1>
+                </div>
+
+                <div>
+                    <img src="./image/simple.png" alt="">
+                    <h1>Simple</h1>
+                </div>
+
+                <div>
+                    <img src="./image/twitch.png" alt="">
+                    <h1>Twitch</h1>
+                </div>
+
+                <div>
+                    <img src="./image/behance.png" alt="">
+                    <h1>Behance</h1>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Text -->
+        <section>
+
+        <div class="flex justify-between m-3  mt-10">
+
+            <div class="text-xl">
+            <h1 class="font-bold">We Provide Best</h1>
+            <h1 class="font-bold">Coustom Experience</h1>
+            </div>
+
+            <div>
+            <p>|| We ensure that our coustomer have the best shopping experience </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Information About the Webage -->
+
+    <section>
+        
+        <div class="  m-3   md:flex ">
+
+            <div class=" p-3 m-3 " style="background-color: #F2F4F7;">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-11 w-11 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                  </svg>
+                <h1 class="font-bold">Original Product</h1>
+                <p>An original dress stands out with its unique design, ensuring you wear something truly distinctive.</p>
+
+            </div>
+
+            
+            
+                <div class=" p-3 m-3  " style="background-color:#F2F4F7;">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-11 w-11 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                      </svg>
+                    <h1 class="font-bold">Original Product</h1>
+                    <p>Our dress satisfaction guarantee ensures a refund or replacement if you're not completely satisfied with your purchase</p>
+    
+
+            </div>
+
+            
+        
+
+                <div class=" p-3 m-3  " style="background-color: #F2F4F7;">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-11 w-11 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                      </svg>
+                    <h1 class="font-bold">Original Product</h1>
+                    <p>New Arrival Everyday" of dresses ensures fresh, stylish options added daily to keep your wardrobe updated.</p>
+    
+
+            </div>
+
+            
+            <div class=" p-3 m-3  " style="background-color: #F2F4F7;">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-11 w-11 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                  </svg>
+                <h1 class="font-bold">Original Product</h1>
+                <p>Fast & Free Shipping
+                    Enjoy fast and free shipping on all our dresses, getting your new look to you quickly and without extra cost.</p>
+
+
+            </div>
+      
+        </div>
+
+    </section>
+
+
+    <!-- New Arrivel -->
+
+    <section class="m-3 mt-10">
+
+        <h1 class="text-xl font-bold">New Arrival</h1>
+        
+        <div class=" arrivel m-6 flex justify-around">
+
+
+            <div class="arrivel__1">
+                <img class="w-60" src="./image/product/f1.jpg" alt="">
+                <button>Shop Now <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></button>
+            </div>
+
+            
+            <div class="arrivel__1">
+                <img class="w-60" src="./image/product/f2.jpg" alt="">
+                <button >Shop Now <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></button>
+            </div>
+
+            <div class="arrivel__1">
+                <img class="w-60" src="./image/product/f3.jpg" alt="">
+                <button>Shop Now <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></button>
+            </div>
+
+            <div class="arrivel__1">
+                <img class="w-60" src="./image/product/f4.jpg" alt="">
+                <button>Shop Now <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></button>
+            </div>
+
+
+        </div>
+    </section>
+
+
+</body>
+</html>
