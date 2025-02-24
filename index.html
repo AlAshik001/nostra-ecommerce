@@ -21,15 +21,16 @@
         <!-- offre bar -->
          <div class=" off-bar p-2 flex justify-center gap-12 bg-black text-white " >
          <p>sign Up and <b>GET 20% OFF</b> for your first order</p>
-         <p>X</p>
+         <p class="closebar cursor-pointer">X</p>
         </div>
 
     </section>
+
       <!-- navbar -->
     
-        <nav id="navbar" class="m-3 flex items-center justify-between sticky top-0 bg-white z-20 p-2 ">
+        <nav id="navbar" class=" flex items-center justify-between sticky top-0 bg-white z-20 p-2 ">
 
-            <h1 class="text-xl font-bold">Nostra</h1>
+            <h1 class="text-xl font-bold m-3">Nostra</h1>
 
             <svg id="menubar"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden cursor-pointer">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -52,20 +53,62 @@
                 </li>
 
                 <li class="cursor-pointer hover:underline  hover:text-gray-500">
-                    <p><a href="#">Collection</a></p>
+                    <p><a href="collection.html">Collection</a></p>
                 </li>
 
                 <li class="cursor-pointer hover:underline  hover:text-gray-500">
-                    <p><a href="#">Contact Us</a></p>
+                    <p><a href="contact.html">Contact Us</a></p>
                 </li>
             </ul>
 
         </nav>
 
+
+
+        <!-- side navbar -->
+
+        <section id="sidenav" class="bg-black text-white fixed top-0 z-20 transition-all duration-1000 " style="width: 50%; height: 100vh; left: -50%;" >
+
+
+            <div class=" text-right p-5  ">
+
+                <p class ="sideclose inline cursor-pointer">X</p>
+
+            </div>
+
+            <ul class="flex flex-col items-center  gap-10 ">
+
+           
+                <li class="cursor-pointer hover:underline hover:text-gray-500">
+
+                    <p><a href="#">Home</a></p>
+                </li>
+
+                <li class="cursor-pointer hover:underline  hover:text-gray-500">
+                    <p><a href="#newarrival">New Arrivel</a></p>
+                </li>
+
+                <li class="cursor-pointer hover:underline  hover:text-gray-500">
+                    <p><a href="#mostwanted">Most Wanted</a></p>
+                </li>
+
+                <li class="cursor-pointer hover:underline  hover:text-gray-500">
+                    <p><a href="collection.html">Collection</a></p>
+                </li>
+
+                <li class="cursor-pointer hover:underline  hover:text-gray-500">
+                    <p><a href="contact.html">Contact Us</a></p>
+                </li>
+            </ul>
+
+
+        </section>
+
+
        <!-- Slider -->
         <section>
                           
-            <div  class="slider m-3">
+            <div  class="slider m-">
 
                 <div class="slider-left-button">
                     <i id="slider-left-activate" class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
@@ -80,9 +123,9 @@
 
                 <div class="slider-img">
 
-                    <img class="s1" src="./image/slider-one.jpg" width="" alt="">
-                    <img class="s1" src="./image/slider-two.jpg" alt="">
-                    <img class="s1" src="./image/slider-three.jpg" alt="">
+                    <img class="s1" src="./image/slider-one.jpg" width="100%" alt="">
+                    <img class="s1" src="./image/slider-two.jpg"  alt="">
+                    <img class="s1" src="./image/slider-three.jpg"  alt="">
 
                 </div>
 
@@ -343,9 +386,9 @@
     <!-- footer -->
 
     <section class="bg-black text-white mt-24 m-3 p-10">
-        <div class="footer p-10">
+        <div class="footer">
 
-            <div>
+            <div class="footer__content">
             <h1 class="text-4xl font-bold">Nostra</h1>
             <p class="mt-10">Subscribe to stay up to date with all the latest news related to Nostra.</p>
 
@@ -361,14 +404,18 @@
 
         </div>
 
-        <div>
+        <div class="subtitle-c">
         <p class="subtitle mt-2 ">&copy; 2025 Nostra.com</p>
     </div>
 
 </div>
 
 
-    </section>
+</section>
+
+<!-- Scripting  -->
+
+<script src="index.js"></script>
 
     
 

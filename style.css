@@ -31,7 +31,7 @@ body::-webkit-scrollbar{
     transition: 2s;
 }
 
-.slider-img .s1{
+.s1{
     width: 100vw;
     height: 35vw;
 }
@@ -160,8 +160,6 @@ body::-webkit-scrollbar{
 
    padding: 5%;
 
-    
-
 }
 
 .limit-offer-content button{
@@ -181,20 +179,26 @@ body::-webkit-scrollbar{
     margin-top: 10px;
 }
 
+.letter input{
+    
+}
+
 .footer{
     position: relative;
 }
 
+
+
 .footer-icon{
-    position: absolute ;
-    left: 40px;
     display: flex;
     gap: 30px;
-   margin-top: 42px;
-
+    margin-top: 10px;
 }
 
-
+.subtitle-c{
+    margin-top: 10px;
+    margin-right: 2px;
+}
 
 
 
@@ -241,6 +245,7 @@ body::-webkit-scrollbar{
         align-items: center;
         padding: 20px;
         font-size: 2vw;
+      
     }
 
 
@@ -251,6 +256,7 @@ body::-webkit-scrollbar{
 
      .limit-offer-content{
        padding: 5%;
+       font-size: 2vw;
       
     } 
 
@@ -263,6 +269,29 @@ body::-webkit-scrollbar{
         font-size: 1.5vw;
         border-radius: 10px;
         border: none;
+    }
+
+    .letter{
+        padding: 10px;
+    }
+
+    .letter h1 {
+        font-size: 5vw;
+    }
+
+    .letter p{
+        font-size: 10px;
+    }
+
+    .letter button{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+    }
+
+    .footer__content{
+        font-size: 10px;
     }
 
 
