@@ -200,6 +200,41 @@ body::-webkit-scrollbar{
     margin-right: 2px;
 }
 
+.vertical-line{
+    border: none;
+    border-left: 3px solid #1D232C; /* Adjust color and width as needed */
+    height: 100%; /* Adjust height as needed */
+    margin: 0 20px; /* Adjust margin as needed */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 80%;
+}
+
+.product-list{
+    margin-left: 400px;
+}
+
+.product-search{
+    width: 100%;
+    display: flex;
+    border: black 2px solid;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.product-search input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.product-search input:focus{
+    outline: none;
+}
 
 
 
@@ -293,8 +328,8 @@ body::-webkit-scrollbar{
     .footer__content{
         font-size: 10px;
     }
-
-
+    
+}
 
 
 
@@ -307,4 +342,3 @@ body::-webkit-scrollbar{
     
 
 
-}

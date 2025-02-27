@@ -28,7 +28,7 @@
 
       <!-- navbar -->
     
-        <nav id="navbar" class=" flex items-center justify-between sticky top-0 bg-white z-20 p-2 ">
+        <nav id="navbar" class=" flex items-center justify-between sticky top-0 bg-white z-30 p-2 ">
 
             <h1 class="text-xl font-bold">Nostra</h1>
 
@@ -108,85 +108,128 @@
     <!-- Collection fliter -->
 
 
-  
 
-
-
-        <div class="checking-section flex justify-between r">
-
-
-            <div class="availables__section">
+                              
+                     <div class="container ">
+                        <div class="separate__section flex justify-between">
+                                    <div class="checking__section m-3">
+                                
+                                
+                           
+                                      <h1 class="font-bold text-3xl mt-10">Occtions</h1>
                
-                <h1 class="font-bold text-3xl mt-10">Occtions</h1>
+                                       <div class="mt-5 text-2xl">
+                                       <input type="checkbox" name="tags" value="summer">Summer <br>
+                                       <input type="checkbox" name="tags" value="party">Party <br>
+                                       <input type="checkbox" name="tags" value="beach">Beach
+                                      </div>
+
+
+                                       <h1 class="font-bold text-3xl mt-10">Colors</h1>
+
+                                       <div class="mt-5 text-2xl" >
+                                       <input type="checkbox" name="tags" value="red">Red <br>
+                                       <input type="checkbox" name="tags" value="blue">Blue <br>
+                                       <input type="checkbox" name="tags" value="green">Green <br>
+                                       <input type="checkbox" name="tags" value="gray">Gray
+                                       </div>
+
+                                       <h1 class="font-bold text-3xl mt-10">Arrival</h1>
                
-                <div class="mt-5 text-2xl">
-                    <input type="checkbox" name="tags" value="summer">Summer <br>
-                    <input type="checkbox" name="tags" value="summer">Party <br>
-                    <input type="checkbox" name="tags" value="summer">Beach
-                </div>
+                                       <div class="mt-5 text-2xl">
+                                       <input type="checkbox" name="old">Old <br>
+                                       <input type="checkbox" name="new">New
+                                       </div>
+            
+                                        <hr class="vertical-line">
+
+                                      </div>
 
 
-                <h1 class="font-bold text-3xl mt-10">Colors</h1>
+    <div class="product-list mt-8">
 
-                <div class="mt-5 text-2xl" >
-                    <input type="checkbox" name="tags" value="red">Red <br>
-                    <input type="checkbox" name="tags" value="red">Blue <br>
-                    <input type="checkbox" name="tags" value="red">Green <br>
-                    <input type="checkbox" name="tags" value="red">Gray
-                </div>
 
-                <h1 class="font-bold text-3xl mt-10">Arrival</h1>
-                   
-                <div class="mt-5 text-2xl">
-                    <input type="checkbox" name="old">Old <br>
-                    <input type="checkbox" name="new">New
-                </div>
-                
-              
+      <form class="product-search">
+            <input type="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
 
+        <div class="products grid grid-cols-3 gap-5 mt-5 " id="products">
+            <div class="product-box" data-occasion="summer" data-color="blue" data-arrival="new">
+                <img src="./image/product/f2.jpg" alt="" height="288px" width="288px">
+                <h1>Floral Summer Shirt</h1>
+                <p>₹220</p>
+            </div>
+            <div class="product-box" data-occasion="summer" data-color="green" data-arrival="new">
+                <img src="./image/product/f1.jpg" alt="" height="288px" width="288px">
+                <h1>Summer Green</h1>
+                <p>₹260</p>
+            </div>
+            <div class="product-box" data-occasion="party" data-color="green" data-arrival="old">
+                <img src="./image/product/f3.jpg" alt="" height="288px" width="288px">
+                <h1>Party Floral Shirt</h1>
+                <p>₹399</p>
+            </div>
+            <div class="product-box" data-occasion="summer" data-color="white" data-arrival="new">
+                <img src="./image/product/f4.jpg" alt="" height="288px" width="288px">
+                <h1>Floral Summer Shirt</h1>
+                <p>₹399</p>
+            </div>
+            <div class="product-box" data-occasion="beach" data-color="blue" data-arrival="old">
+                <img src="./image/product/f5.jpg" alt="" height="288px" width="288px">
+                <h1>Beach Shirt</h1>
+                <p>₹579</p>
+            </div>
+            <div class="product-box" data-occasion="party" data-color="red" data-arrival="old">
+                <img src="./image/product/f6.jpg" alt="" height="288px" width="288px">
+                <h1>Shirt Party Red</h1>
+                <p>₹579</p>
+            </div>
+            <div class="product-box" data-occasion="floral" data-color="green" data-arrival="old">
+                <img src="./image/product/f7.jpg" alt="" height="288px" width="288px">
+                <h1>Party Floral Shirt</h1>
+                <p>₹399</p>
             </div>
 
-            <hr class="vertical-line border-2-black">
-                                            <!-- Products -->
-                                     
-        <div class="product-list" style="width: 80%;">
-
-            <div class="">
-                    <input type="text" placeholder="Search">
+            <div class="product-box" data-occasion="party" data-color="red" data-arrival="old">
+                <img src="./image/product/f8.jpg" alt="" height="288px" width="288px">
+                <h1>Shirt Party Red</h1>
+                <p>₹579</p>
+            </div>
+            <div class="product-box" data-occasion="summer" data-color="blue" data-arrival="new">
+                <img src="./image/product/n2.jpg" alt="" height="288px" width="288px">
+                <h1>Floral Summer Shirt</h1>
+                <p>₹220</p>
             </div>
 
-        </div>
+            <div class="product-box" data-occasion="floral" data-color="green" data-arrival="old">
+                <img src="./image/product/n1.jpg" alt="" height="288px" width="288px">
+                <h1>Party Floral Shirt</h1>
+                <p>₹399</p>
+            </div>
 
+            <div class="product-box" data-occasion="party" data-color="red" data-arrival="old">
+                <img src="./image/product/n3.jpg" alt="" height="288px" width="288px">
+                <h1>Shirt Party Red</h1>
+                <p>₹579</p>
+            </div>
+            <div class="product-box" data-occasion="summer" data-color="blue" data-arrival="new">
+                <img src="./image/product/n4.jpg" alt="" height="288px" width="288px">
+                <h1>Floral Summer Shirt</h1>
+                <p>₹220</p>
+            </div>
 
+               </div>
 
-        </div>
-    
-   
-
-
- 
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                     </div>
+                                 </div>
 
 
 
 
 
 
-    <!-- <section class="bg-black text-white mt-24 m-3 p-10">
+    <section class="bg-black text-white mt-24 m-3 p-10">
         <div class="footer">
     
             <div class="footer__content">
@@ -212,4 +255,22 @@
     </div>
     
     
-    </section> -->
+    </section>
+
+<script src="collection.js"></script>
+
+
+</html>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
