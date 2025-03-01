@@ -236,6 +236,24 @@ body::-webkit-scrollbar{
     outline: none;
 }
 
+.products{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-box{
+    flex-basis: 25%;
+}
+
+
+
+
+
+
 
 
 
@@ -328,6 +346,33 @@ body::-webkit-scrollbar{
     .footer__content{
         font-size: 10px;
     }
+
+    .product-box img{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-box{
+        height: 140.47px;
+        width: 77.47px;
+
+    }
+
+
+    .product-box h1{
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .product-box p{
+        font-size: 7px;
+        text-align: center;
+    }
+
+    
+ 
+    
+ 
     
 }
 
