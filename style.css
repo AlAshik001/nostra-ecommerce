@@ -179,9 +179,7 @@ body::-webkit-scrollbar{
     margin-top: 10px;
 }
 
-.letter input{
-    
-}
+
 
 .footer{
     position: relative;
@@ -200,6 +198,18 @@ body::-webkit-scrollbar{
     margin-right: 2px;
 }
 
+.separate__section{
+    display: flex;
+}
+
+.checking__section{
+    flex-basis: 25%;
+    position: relative;
+    font-size: 2vw;
+}
+
+
+
 .vertical-line{
     border: none;
     border-left: 3px solid #1D232C; /* Adjust color and width as needed */
@@ -208,11 +218,15 @@ body::-webkit-scrollbar{
     position: absolute;
     top: 0px;
     right: 0px;
-    margin-right: 80%;
+
 }
 
+
+
+
 .product-list{
-    margin-left: 400px;
+   flex-basis: 75%;
+   position: relative;
 }
 
 .product-search{
@@ -369,11 +383,7 @@ body::-webkit-scrollbar{
         text-align: center;
     }
 
-    
- 
-    
- 
-    
+  
 }
 
 
