@@ -203,7 +203,7 @@ body::-webkit-scrollbar{
 }
 
 .checking__section{
-    flex-basis: 25%;
+    flex-basis: 55%;
     position: relative;
     font-size: 2vw;
 }
